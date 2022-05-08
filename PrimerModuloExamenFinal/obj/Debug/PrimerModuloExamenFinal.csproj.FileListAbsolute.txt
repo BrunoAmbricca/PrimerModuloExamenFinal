@@ -1,0 +1,9 @@
+D:\Escritorio\Quark\Etapa1\PrimerModuloExamenFinal\PrimerModuloExamenFinal\bin\Debug\PrimerModuloExamenFinal.exe.config
+D:\Escritorio\Quark\Etapa1\PrimerModuloExamenFinal\PrimerModuloExamenFinal\bin\Debug\PrimerModuloExamenFinal.exe
+D:\Escritorio\Quark\Etapa1\PrimerModuloExamenFinal\PrimerModuloExamenFinal\bin\Debug\PrimerModuloExamenFinal.pdb
+D:\Escritorio\Quark\Etapa1\PrimerModuloExamenFinal\PrimerModuloExamenFinal\obj\Debug\PrimerModuloExamenFinal.csproj.AssemblyReference.cache
+D:\Escritorio\Quark\Etapa1\PrimerModuloExamenFinal\PrimerModuloExamenFinal\obj\Debug\PrimerModuloExamenFinal.Properties.Resources.resources
+D:\Escritorio\Quark\Etapa1\PrimerModuloExamenFinal\PrimerModuloExamenFinal\obj\Debug\PrimerModuloExamenFinal.csproj.GenerateResource.cache
+D:\Escritorio\Quark\Etapa1\PrimerModuloExamenFinal\PrimerModuloExamenFinal\obj\Debug\PrimerModuloExamenFinal.csproj.CoreCompileInputs.cache
+D:\Escritorio\Quark\Etapa1\PrimerModuloExamenFinal\PrimerModuloExamenFinal\obj\Debug\PrimerModuloExamenFinal.exe
+D:\Escritorio\Quark\Etapa1\PrimerModuloExamenFinal\PrimerModuloExamenFinal\obj\Debug\PrimerModuloExamenFinal.pdb
