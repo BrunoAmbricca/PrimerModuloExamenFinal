@@ -6,10 +6,21 @@ using System.Threading.Tasks;
 
 namespace PrimerModuloExamenFinal.Models
 {
-    class Vendedor
+    public class Vendedor
     {
         private string name;
         private string surname;
         private string sellerCode;
+
+        public string SellerCode { get => sellerCode; }
+
+        public Vendedor(string name, string surname, string sellerCode)
+        {
+            this.name = name;
+            this.surname = surname;
+            this.sellerCode = sellerCode;
+        }
+
+        
     }
 }

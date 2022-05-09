@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrimerModuloExamenFinal.Models
 {
-    class Cotizacion
+    public class Cotizacion
     {
         private int id;
         private DateTime created;

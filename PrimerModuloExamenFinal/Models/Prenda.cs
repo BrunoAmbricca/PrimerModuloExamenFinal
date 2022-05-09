@@ -6,10 +6,22 @@ using System.Threading.Tasks;
 
 namespace PrimerModuloExamenFinal.Models
 {
-    abstract class Prenda
+    public abstract class Prenda
     {
-        private string quality;
-        private double price;
+        private bool premium;
+        //private double price { get; set; }
         private int stock;
+
+        public Prenda(bool premium, int stock)
+        {
+            this.premium = premium;
+            this.stock = stock;
+        }
+
+        public bool Premium { get => premium;}
+        public int Stock { get => stock;}
+
+        public abstract double calcularPrecio(double precioUnitario);
+
     }
 }
