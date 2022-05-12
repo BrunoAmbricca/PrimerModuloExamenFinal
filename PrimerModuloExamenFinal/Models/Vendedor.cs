@@ -13,6 +13,8 @@ namespace PrimerModuloExamenFinal.Models
         private string sellerCode;
 
         public string SellerCode { get => sellerCode; }
+        public string Name { get => name;}
+        public string Surname { get => surname;}
 
         public Vendedor(string name, string surname, string sellerCode)
         {

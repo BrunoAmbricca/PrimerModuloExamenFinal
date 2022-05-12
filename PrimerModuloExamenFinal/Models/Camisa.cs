@@ -20,24 +20,26 @@ namespace PrimerModuloExamenFinal.Models
         public bool ShortSleeve { get => shortSleeve; }
         public bool MaoNeck { get => maoNeck; }
 
-        public override double calcularPrecio(double precioUnitario)
+        public override double calcularPrecio()
         {
+            double precioFinal = this.Price;
+
             if (shortSleeve)
             {
-                precioUnitario -= precioUnitario * 0.1;
+                precioFinal -= precioFinal * 0.1;
             }
 
             if (maoNeck)
             {
-                precioUnitario += precioUnitario * 0.03;
+                precioFinal += precioFinal * 0.03;
             }
 
             if (this.Premium)
             {
-                precioUnitario += precioUnitario * 0.3;
+                precioFinal += precioFinal * 0.3;
             }
 
-            return precioUnitario;
+            return precioFinal;
         }
     }
 }

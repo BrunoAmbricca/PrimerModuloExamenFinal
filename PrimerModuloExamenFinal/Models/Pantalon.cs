@@ -15,19 +15,23 @@ namespace PrimerModuloExamenFinal.Models
             this.chupin = chupin;
         }
 
-        public override double calcularPrecio(double precioUnitario)
+        public bool Chupin { get => chupin; }
+
+        public override double calcularPrecio()
         {
+            double precioFinal = this.Price;
+
             if (chupin)
             {
-                precioUnitario -= precioUnitario * 0.12;
+                precioFinal -= precioFinal * 0.12;
             }
 
             if (this.Premium)
             {
-                precioUnitario += precioUnitario * 0.3;
+                precioFinal += precioFinal * 0.3;
             }
 
-            return precioUnitario;
+            return precioFinal;
         }
     }
 }
